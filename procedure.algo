@@ -1,0 +1,7 @@
+Procédure dot_product(v1 : array of integers; v2 : array of integers; ps : out real);
+
+BEGIN
+ ps := 0
+  for i from 1 to v1.length
+    ps := ps + v1[i] * v2[i];
+END

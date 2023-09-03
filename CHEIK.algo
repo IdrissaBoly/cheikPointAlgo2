@@ -1,0 +1,21 @@
+ALGORITHM Programme1
+VAR
+set1 : array of integers;
+  set2 : array of integers;
+  sum : integer;
+BEGIN
+sum := 0
+  For each element e in set1
+    If e is not in set2
+      sum := sum + e
+  For each element e in set2
+    If e is not in set1
+      sum := sum + e;
+  Return sum;
+  set1 := [1, 2, 3, 4, 5];
+set2 := [2, 4, 6, 8, 10];
+
+sum := sum_sets(set1, set2);
+
+Write(sum);
+END

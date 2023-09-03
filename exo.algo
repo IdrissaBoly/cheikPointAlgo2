@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+VAR
+    n : integer
+  v1 : array of integers;
+  v2 : array of integers;
+  ps : real;
+  is_orthogonal : boolean;
+BEGIN
+    is_orthogonal := true;
+  For i from 1 to n
+    ps := dot_product(v1, v2)
+    If ps <> 0
+      is_orthogonal := false
+      Exit loop;
+  End
+  If is_orthogonal
+    Write("The vectors are orthogonal");
+  Otherwise
+    Write("The vectors are not orthogonal");
+END
