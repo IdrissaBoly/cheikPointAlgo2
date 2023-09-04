@@ -1,7 +1,7 @@
 ALGORITHM Programme1
 VAR
-set1 : array of integers;
-  set2 : array of integers;
+set1 : array of integer;
+  set2 : array of integer;
   sum : integer;
 BEGIN
 sum := 0
